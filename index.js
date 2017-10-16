@@ -13,6 +13,7 @@ function johnLennonFacts(array){
     array[i] = array[i] + "!!!"
     i++
   }
+  return array;
 }
 
 function iLoveTheBeatles(number) {
@@ -22,4 +23,5 @@ function iLoveTheBeatles(number) {
     array[number - i] = "I love the Beatles!"
     number++
   } while (number < 15);
+  return array;
 }

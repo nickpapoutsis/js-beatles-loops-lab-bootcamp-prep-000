@@ -15,10 +15,10 @@ function johnLennonFacts(array){
   }
 }
 
-function iLoveTheBeetles(number) {
+function iLoveTheBeatles(number) {
   let array = [];
   do {
-    array[number] = "I love the Beetles!"
+    array[number] = "I love the Beatles!"
     number++
   } while (number < 15);
 }
